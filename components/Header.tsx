@@ -1,7 +1,5 @@
 import Head from "next/head"
-import Link from "next/link"
-import Script from "next/script"
-export default function Header({ title = "User596E9F4", description = "説明文" }) {
+export default function Header({ title = "User596E9F4 プログラミングポートフォリオ", description = "User596E9F4のお仕事用ポートフォリオサイト" }) {
     return (
         <>
             <Head>
@@ -17,7 +15,6 @@ export default function Header({ title = "User596E9F4", description = "説明文
             <meta name="twitter:card" content="summary_large_image" /> */}
 
                 <link rel="manifest" href="/site.webmanifest" />
-                <meta name="google-site-verification" content="c684RAYFjc16gR2jrvoWLrj6gf04a2xVi784qaPsDvg" />
             </Head>
         </>
 
