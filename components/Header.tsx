@@ -17,6 +17,7 @@ export default function Header({ title = "User596E9F4", description = "説明文
             <meta name="twitter:card" content="summary_large_image" /> */}
 
                 <link rel="manifest" href="/site.webmanifest" />
+                <meta name="google-site-verification" content="c684RAYFjc16gR2jrvoWLrj6gf04a2xVi784qaPsDvg" />
             </Head>
         </>
 
