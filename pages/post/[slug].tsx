@@ -1,6 +1,6 @@
 // APIなどから取得したデータからページを生成できる
 
-const Posts = ({ posts }: any) => {
+export default function Posts({ posts }: any) {
     return (
         posts.map((post: any, index: number) => (
             <p key={index}>{post}</p>
@@ -23,5 +23,3 @@ export async function getStaticPaths() {
     // { fallback: false } means other routes should 404.
     return { paths, fallback: false }
 }
-
-export default Posts

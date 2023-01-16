@@ -2,7 +2,7 @@ import Footer from "./Footer"
 import Navigations from "./Navigations"
 
 
-const Layout = (child: any) => {
+export default function Layout(child: any) {
 
     return (
         <>
@@ -22,4 +22,3 @@ const Layout = (child: any) => {
     )
 }
 
-export default Layout

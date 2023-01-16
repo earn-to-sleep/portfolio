@@ -5,7 +5,7 @@ import Timeline from "../../components/Timeline"
 import Header from "../../components/Header"
 import Title from "../../components/Title"
 
-const Template = () => {
+export default function Template() {
     return (
         <>
             <Header title="暗号通貨国内外取引所間アービトラージの自動化" description="暗号通貨国内外間での価格差や取引高による金利差など歪みを得るアービトラージをプログラム化" />
@@ -58,7 +58,6 @@ const Template = () => {
     )
 }
 
-export default Template
 
 
 

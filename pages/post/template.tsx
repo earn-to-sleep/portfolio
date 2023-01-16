@@ -6,7 +6,7 @@ import TimelineLite from "../../components/TimelineLite"
 import Header from "../../components/Header"
 import Title from "../../components/Title"
 
-const Template = () => {
+export default function Template() {
     return (
         <>
             <Header title="title" description="description" />
@@ -56,7 +56,6 @@ const Template = () => {
     )
 }
 
-export default Template
 
 
 

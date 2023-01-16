@@ -1,4 +1,4 @@
-const Title = ({ props }: any) => {
+export default function Title({ props }: any) {
     return (
         <h2>
             {props.title}
@@ -8,5 +8,3 @@ const Title = ({ props }: any) => {
         </h2>
     )
 }
-
-export default Title

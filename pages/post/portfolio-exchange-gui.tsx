@@ -6,7 +6,7 @@ import Timeline from "../../components/Timeline"
 import Title from "../../components/Title"
 
 
-const PortfolioExchangeGUI = () => {
+export default function PortfolioExchangeGUI() {
     return (
         <>
             <Header title="au カブコム証券 KABU STATION APIへの特殊注文" description="日経225をメインに取引を行うデイトレーダーさまより受注" />
@@ -84,6 +84,3 @@ const timelineItems = [
         description: 'API KEYなどはお客様にご用意頂き、auカブコム証券 kabu Station API Documentを読み理解し、約定と板データ取得'
     },
 ]
-
-
-export default PortfolioExchangeGUI

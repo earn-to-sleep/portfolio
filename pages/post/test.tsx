@@ -2,7 +2,7 @@ import Navigations from "../../components/Navigations"
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 
-const TestT = () => {
+export default function Test() {
     return (
         <>
             <Header title="title" description="description" />
@@ -21,6 +21,3 @@ const TestT = () => {
 
     )
 }
-
-
-export default TestT

@@ -6,7 +6,7 @@ import TimelineLite from "../../components/TimelineLite"
 import Header from "../../components/Header"
 import Title from "../../components/Title"
 
-const Template = () => {
+export default function Template() {
     return (
         <>
             <Header title="APIから取得した青空文庫を棒読みちゃんに朗読してもらう" description="ウェブ上に落ちているテキストを棒読みちゃんに朗読してもらい動画を制作したい" />
@@ -53,8 +53,6 @@ const Template = () => {
         </>
     )
 }
-
-export default Template
 
 
 

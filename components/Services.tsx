@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-function Services({ props }: any) {
+export default function Services({ props }: any) {
     return (
         <div className="container m-auto mb-10 justify-center">
             {props.map((item: any) => (
@@ -24,4 +24,3 @@ function Services({ props }: any) {
     )
 }
 
-export default Services

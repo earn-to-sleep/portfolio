@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Title from "../components/Title"
-const TimelineLite = ({ items }: any) => {
+export default function TimelineLite({ items }: any) {
     let n: number = 0
     items.map((item: any) => (
         n += item.manhours
@@ -11,8 +11,8 @@ const TimelineLite = ({ items }: any) => {
             <Title props={{ title: "実装工数", subtitle: `about ${n} hours` }} />
             <p>
                 <ul>
-                    {items.map((item: any) => (
-                        <li>
+                    {items.map((item: any, i: number) => (
+                        <li key={`key:${i}`}>
                             <span className="bg-indigo-100 text-indigo-500 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300">
                                 {item.manhours} hours
                             </span>
@@ -24,5 +24,3 @@ const TimelineLite = ({ items }: any) => {
         </div>
     )
 }
-
-export default TimelineLite

@@ -3,7 +3,7 @@ import Title from "./Title";
 import React, { useState } from "react"
 
 
-const InputEmail = () => {
+export default function InputEmail() {
     let [email, setEmail] = useState('')
 
     const changeHander = (e: any) => {
@@ -48,4 +48,3 @@ const InputEmail = () => {
         </>
     )
 }
-export default InputEmail
