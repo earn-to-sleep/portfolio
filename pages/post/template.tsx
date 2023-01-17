@@ -5,6 +5,7 @@ import Timeline from "../../components/Timeline"
 import TimelineLite from "../../components/TimelineLite"
 import Header from "../../components/Header"
 import Title from "../../components/Title"
+import Breadcrumb from "../../components/Breadcrumb"
 
 export default function Template() {
     return (
@@ -12,6 +13,7 @@ export default function Template() {
             <Header title="title" description="description" />
             <header>
                 <Navigations />
+                <Breadcrumb />
             </header>
 
             <main>

@@ -4,6 +4,7 @@ import Footer from "../../components/Footer"
 import Timeline from "../../components/Timeline"
 import Header from "../../components/Header"
 import Title from "../../components/Title"
+import Breadcrumb from "../../components/Breadcrumb"
 
 export default function Template() {
     return (
@@ -11,6 +12,7 @@ export default function Template() {
             <Header title="OpenAI GPT3 チャットを既存サービスに追加導入" description="自サーバで運用する既存サービス上にOpenAI GPT3 チャットを追加導入し、お客様の利便性向上" />
             <header>
                 <Navigations />
+                <Breadcrumb />
             </header>
 
             <main>

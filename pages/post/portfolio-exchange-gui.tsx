@@ -1,9 +1,11 @@
 import Image from "next/image"
+import Breadcrumb from "../../components/Breadcrumb"
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import Navigations from "../../components/Navigations"
 import Timeline from "../../components/Timeline"
 import Title from "../../components/Title"
+
 
 
 export default function PortfolioExchangeGUI() {
@@ -12,6 +14,7 @@ export default function PortfolioExchangeGUI() {
             <Header title="au カブコム証券 KABU STATION APIへの特殊注文" description="日経225をメインに取引を行うデイトレーダーさまより受注" />
             <header>
                 <Navigations />
+                <Breadcrumb />
             </header>
 
             <main>

@@ -2,7 +2,7 @@ import Image from "next/image"
 import Navigations from "../../components/Navigations"
 import Footer from "../../components/Footer"
 import Timeline from "../../components/Timeline"
-import TimelineLite from "../../components/TimelineLite"
+import Breadcrumb from "../../components/Breadcrumb"
 import Header from "../../components/Header"
 import Title from "../../components/Title"
 
@@ -12,6 +12,8 @@ export default function Template() {
             <Header title="APIから取得した青空文庫を棒読みちゃんに朗読してもらう" description="ウェブ上に落ちているテキストを棒読みちゃんに朗読してもらい動画を制作したい" />
             <header>
                 <Navigations />
+
+                <Breadcrumb />
             </header>
 
             <main>
