@@ -111,7 +111,8 @@ export default function Home() {
 
 
 const products = [
-  { date: "2023/04/8", manhours: "16", title: "APIから取得した青空文庫を棒読みちゃんに朗読してもらう", href: "/post/portfolio-bouyomichan" }
+  { date: "2022/04/8", manhours: "16", title: "APIから取得した青空文庫を棒読みちゃんに朗読してもらう", href: "/post/portfolio-bouyomichan" },
+  { date: "2023/01/18", manhours: "x", title: "機械学習でのアルゴリズム取引について個人的所感", href: "/post/portfolio-machine-learning-for-algorithm-trade" }
 ];
 
 const services = [
