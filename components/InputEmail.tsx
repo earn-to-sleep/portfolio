@@ -17,7 +17,7 @@ export default function InputEmail() {
             body: JSON.stringify({ email: email })
         }
 
-        const res = await fetch(`http://localhost:3000/api/hello`, op)
+        const res = await fetch(`http://localhost:3000/api/email`, op)
         const data = res.json()
 
         console.log('response :' + data)
