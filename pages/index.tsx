@@ -111,6 +111,7 @@ export default function Home() {
 
 
 const products = [
+  { date: "2021/11/1", manhours: "71", title: "暗号通貨自動取引プログラム", href: "/post/portfolio-market-make" },
   { date: "2022/04/8", manhours: "16", title: "APIから取得した青空文庫を棒読みちゃんに朗読してもらう", href: "/post/portfolio-bouyomichan" },
   { date: "2023/01/18", manhours: "x", title: "機械学習でのアルゴリズム取引について個人的所感", href: "/post/portfolio-machine-learning-for-algorithm-trade" }
 ];
